@@ -1,0 +1,201 @@
+
+C:\Users\Milena>cd /
+
+C:\>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 1041-47F9
+
+ Содержимое папки C:\
+
+23.03.2020  17:30    <DIR>          Activators
+23.03.2020  17:30    <DIR>          Avatars
+14.05.2020  10:06    <DIR>          PerfLogs
+27.03.2020  10:16    <DIR>          Program Files
+18.08.2020  12:09    <DIR>          Program Files (x86)
+23.03.2020  18:00    <DIR>          Users
+07.10.2020  16:51    <DIR>          Windows
+               0 файлов              0 байт
+               7 папок   1 898 201 088 байт свободно
+
+C:\>mkdir stud12
+
+C:\>cd \stud12
+
+C:\stud12>mkdir first
+
+C:\stud12>mkdir second
+
+C:\stud12>cd \stud12\first
+
+C:\stud12\first>copy con C:\stud12\first\text.txt
+это
+текст
+в файле
+^Z
+Скопировано файлов:         1.
+
+C:\stud12\first>copy con C:\stud12\second\data.txt
+Легостаев М.Д.
+^Z
+Скопировано файлов:         1.
+
+C:\stud12\first>copy con C:\stud12\second\date.txt
+20.02.2002^Z
+Скопировано файлов:         1.
+
+C:\stud12\first>cd c:\stud12
+
+c:\stud12>mkdir inform
+
+c:\stud12>cd c:\stud12\inform
+
+c:\stud12\inform>mkdir old
+
+c:\stud12\inform>mkdir def
+
+c:\stud12\inform>cd c:\stud12\second
+
+c:\stud12\second>copy date.txt C:\stud12\inform\old\date.txt.old
+Скопировано файлов:         1.
+
+c:\stud12\second>copy data.txt C:\stud12\inform\old\data.txt.old
+Скопировано файлов:         1.
+
+c:\stud12\second>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 1041-47F9
+
+ Содержимое папки c:\stud12\second
+
+07.10.2020  17:22    <DIR>          .
+07.10.2020  17:22    <DIR>          ..
+07.10.2020  17:21                16 data.txt
+07.10.2020  17:22                10 date.txt
+               2 файлов             26 байт
+               2 папок   1 256 456 192 байт свободно
+
+c:\stud12\second>cd c:\stud12\inform\old
+
+c:\stud12\inform\old>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 1041-47F9
+
+ Содержимое папки c:\stud12\inform\old
+
+07.10.2020  17:26    <DIR>          .
+07.10.2020  17:26    <DIR>          ..
+07.10.2020  17:21                16 data.txt.old
+07.10.2020  17:22                10 date.txt.old
+               2 файлов             26 байт
+               2 папок   1 256 128 512 байт свободно
+
+c:\stud12\inform\old>cd C
+Системе не удается найти указанный путь.
+
+c:\stud12\inform\old>cd C:\
+
+C:\>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 1041-47F9
+
+ Содержимое папки C:\
+
+07.10.2020  17:30    <DIR>          Activators
+23.03.2020  17:30    <DIR>          Avatars
+14.05.2020  10:06    <DIR>          PerfLogs
+27.03.2020  10:16    <DIR>          Program Files
+18.08.2020  12:09    <DIR>          Program Files (x86)
+07.10.2020  17:25    <DIR>          stud12
+07.10.2020  17:35    <DIR>          test_inf
+23.03.2020  18:00    <DIR>          Users
+07.10.2020  16:51    <DIR>          Windows
+               0 файлов              0 байт
+               9 папок   1 252 638 720 байт свободно
+
+C:\>cd test_inf
+
+C:\test_inf>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 1041-47F9
+
+ Содержимое папки C:\test_inf
+
+07.10.2020  17:35    <DIR>          .
+07.10.2020  17:35    <DIR>          ..
+23.03.2020  17:33               912 test.inf
+23.03.2020  17:33               912 test2.inf
+               2 файлов          1 824 байт
+               2 папок   1 251 504 128 байт свободно
+
+C:\test_inf>copy *.dir C:\stud12\inform\def
+*.dir
+Не удается найти указанный файл.
+Скопировано файлов:         0.
+
+C:\test_inf>copy *.dir* C:\stud12\inform\def
+*.dir*
+Не удается найти указанный файл.
+Скопировано файлов:         0.
+
+C:\test_inf>copy *.inf C:\stud12\inform\def
+test.inf
+test2.inf
+Скопировано файлов:         2.
+
+C:\test_inf>cd C:\stud12\inform\def
+
+C:\stud12\inform\def>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 1041-47F9
+
+ Содержимое папки C:\stud12\inform\def
+
+07.10.2020  17:37    <DIR>          .
+07.10.2020  17:37    <DIR>          ..
+23.03.2020  17:33               912 test.inf
+23.03.2020  17:33               912 test2.inf
+               2 файлов          1 824 байт
+               2 папок   1 251 381 248 байт свободно
+
+C:\stud12\inform\def>copy *.inf *,def
+Ошибка в синтаксисе команды.
+
+C:\stud12\inform\def>copy *.inf *.def
+test.inf
+test2.inf
+Скопировано файлов:         2.
+
+C:\stud12\inform\def>rm C:\stud12\inform\old\date.old
+"rm" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\stud12\inform\def>del C:\stud12\inform\old\date.old
+Не удается найти C:\stud12\inform\old\date.old
+
+C:\stud12\inform\def>del C:\stud12\inform\old\date.txt.old
+
+C:\stud12\inform\def>rm C:\stud12\inform\old
+"rm" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\stud12\inform\def>del C:\stud12\inform\old\data.txt.old
+
+C:\stud12\inform\def>rmdir C:\stud12\inform\old
+
+C:\stud12\inform\def>cd C:\stud12\inform
+
+C:\stud12\inform>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 1041-47F9
+
+ Содержимое папки C:\stud12\inform
+
+07.10.2020  17:40    <DIR>          .
+07.10.2020  17:40    <DIR>          ..
+07.10.2020  17:38    <DIR>          def
+               0 файлов              0 байт
+               3 папок   1 250 553 856 байт свободно
+
+C:\stud12\inform> cd C:\
+
+

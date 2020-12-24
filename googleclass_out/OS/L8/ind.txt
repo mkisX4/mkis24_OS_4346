@@ -1,0 +1,58 @@
+[root@root-pc LABRAB]$ ls
+1.py  A1  A2  B2  ind.txt  my.dat
+[root@root-pc LABRAB]$ zip ind.zip ind.txt
+  adding: ind.txt (deflated 0%)
+[root@root-pc LABRAB]$ ls
+1.py  A1  A2  B2  ind.txt  ind.zip  my.dat
+[root@root-pc LABRAB]$ unzip ind.zip
+Archive:  ind.zip
+replace ind.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: n
+[root@root-pc LABRAB]$ ls
+1.py  A1  A2  B2  ind.txt  ind.zip  my.dat
+[root@root-pc LABRAB]$ gzip my.dat
+[root@root-pc LABRAB]$ ls
+1.py  A1  A2  B2  ind.txt  ind.zip  my.dat.gz
+[root@root-pc LABRAB]$ gunzip my.dat.gz   
+[root@root-pc LABRAB]$ ls
+1.py  A1  A2  B2  ind.txt  ind.zip  my.dat
+[root@root-pc LABRAB]$ tar -cvf 1.tar 1.py
+1.py
+[root@root-pc LABRAB]$ ls
+1.py  1.tar  A1  A2  B2  ind.txt  ind.zip  my.dat
+[root@root-pc LABRAB]$ tar -xvf 1.tar 1.py 
+1.py
+[root@root-pc LABRAB]$ ls
+1.py  1.tar  A1  A2  B2  ind.txt  ind.zip  my.dat
+[root@root-pc LABRAB]$ tar -cvf 1.tar 1.py
+1.py
+[root@root-pc LABRAB]$ gzip name.tar
+gzip: name.tar: No such file or directory
+[root@root-pc LABRAB]$ gzip 1.tar
+[root@root-pc LABRAB]$ ls
+1.py  1.tar.gz  A1  A2  B2  ind.txt  ind.zip  my.dat
+[root@root-pc LABRAB]$ tar -zcvf 1.tar.gz 1.py
+1.py
+[root@root-pc LABRAB]$ ls
+1.py  1.tar.gz  A1  A2  B2  ind.txt  ind.zip  my.dat
+[root@root-pc LABRAB]$ bzip2 1.tar.gz
+[root@root-pc LABRAB]$ ls
+1.py  1.tar.gz.bz2  A1  A2  B2  ind.txt  ind.zip  my.dat
+[root@root-pc LABRAB]$ bunzip2 1.tar.gz.bz2
+[root@root-pc LABRAB]$ ls
+1.py  1.tar.gz  A1  A2  B2  ind.txt  ind.zip  my.dat
+[root@root-pc LABRAB]$ tar -cjvf 1.tar.gz ind.txt my.dat
+ind.txt
+my.dat
+[root@root-pc LABRAB]$ ls
+1.py  1.tar.gz  A1  A2  B2  ind.txt  ind.zip  my.dat
+[root@root-pc LABRAB]$ rm ind.txt 
+[root@root-pc LABRAB]$ rm my.dat
+[root@root-pc LABRAB]$ gunzip 1.tar.gz
+
+gzip: 1.tar.gz: not in gzip format
+[root@root-pc LABRAB]$ tar -xvf 1.tar.gz ind.txt my.dat
+ind.txt
+my.dat
+[root@root-pc LABRAB]$ ls
+1.py  1.tar.gz  A1  A2  B2  ind.txt  ind.zip  my.dat
+[root@root-pc LABRAB]$  

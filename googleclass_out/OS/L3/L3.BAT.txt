@@ -1,0 +1,4 @@
+@echo Kodirovky' poehali, poetomu transleet =(
+type lab3.bat
+systeminfo
+@pause  

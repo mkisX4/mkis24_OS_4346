@@ -1,0 +1,43 @@
+// ЗАДАНИЕ 1
+[root ~]$ mkdir /mnt/ssd1/LABRAB
+[root ~]$ cd /mnt/ssd1/LABRAB
+[root LABRAB]$ ls
+[root LABRAB]$ mkdir A1 A2 B2
+[root LABRAB]$ ls
+A1  A2  B2
+[root LABRAB]$ mkdir -p ./A1/B1/C1 ./A1/B1/C2
+// всего четыре команды без учёта ls
+// можно уложиться в одну длинную команду: mkdir -p /mnt/ssd1/LABRAB /mnt/ssd1/LABRAB/A1 /mnt/ssd1/LABRAB/A2 /mnt/ssd1/LABRAB/B2 /mnt/ssd1/LABRAB/A1/B1/C1 /mnt/ssd1/LABRAB/A1/B1/C1
+
+// ЗАДАНИЕ 2
+[root LABRAB]$ cd ./A1/B1
+[root B1]$ ls
+C1  C2
+[root B1]$ cd ./C1
+[root C1]$ dd if=/dev/urandom of=1.txt bs=10 count=1         
+1+0 records in
+1+0 records out
+10 bytes copied, 7,6896e-05 s, 130 kB/s
+[root C1]$ dd if=/dev/urandom of=2.txt bs=10 count=1
+1+0 records in
+1+0 records out
+10 bytes copied, 0,000308819 s, 32,4 kB/s
+[root C1]$ dd if=/dev/urandom of=/mnt/ssd1/LABRAB/A1/B1/C2/1.doc bs=10 count=1
+1+0 records in
+1+0 records out
+10 bytes copied, 0,000267995 s, 37,3 kB/s
+[root C1]$ cat 1.txt
+�R6�l��.��
+[root C1]$ cat 2.txt
+c▒*�2DK9
+[root C1]$ cat 1.txt >> /mnt/ssd1/LABRAB/my.dat && cat 2.txt >> /mnt/ssd1/LABRAB/my.dat && cat /mnt/ssd1/LABRAB/A1/B1/C2/1.doc >> /mnt/ssd1/LABRAB/my.dat
+//[root C1]$ mv -T *.txt *.cpp
+//mv: extra operand '*.cpp'
+//Try 'mv --help' for more information.
+//[root C1]$ man mv
+[root C1]$ mv -T 1.txt 1.cpp
+[root C1]$ mv -T 2.txt 2.cpp
+[root C1]$ ls
+1.cpp  2.cpp
+[root C1]$ cat /mnt/ssd1/LABRAB/my.dat
+�R6�l��.��c▒*�2DK9�y@L�y4�� 

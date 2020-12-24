@@ -1,0 +1,254 @@
+Windows PowerShell
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
++ python3 -m venv c:\Python
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python3:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\root> python -m venv c:\Python
+PS C:\Users\root> cd c:\Python
+PS C:\Python> cd c:\Python\Scripts
+PS C:\Python\Scripts> activate
+activate : Имя "activate" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания име
+ни, а также наличие и правильность пути, после чего повторите попытку.
+строка:1 знак:1
++ activate
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (activate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+Suggestion [3,General]: Команда activate не найдена, однако существует в текущем расположении. По умолчанию оболочка Windows PowerShell не загружает команды из текущего расположения. Если вы уверены в надежности команды, введите ".\activate". Для получения дополнительных сведений вызовите справку с помощью команды "get-help about_Command_Precedence".
+PS C:\Python\Scripts> .\activate.bat
+PS C:\Python\Scripts> pip install jupyterlab
+Collecting jupyterlab
+  Downloading jupyterlab-2.2.9-py3-none-any.whl (7.9 MB)
+     |████████████████████████████████| 7.9 MB 1.7 MB/s
+Collecting notebook>=4.3.1
+  Downloading notebook-6.1.5-py3-none-any.whl (9.5 MB)
+     |████████████████████████████████| 9.5 MB 249 kB/s
+Collecting jupyterlab-server<2.0,>=1.1.5
+  Downloading jupyterlab_server-1.2.0-py3-none-any.whl (29 kB)
+Collecting jinja2>=2.10
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+     |████████████████████████████████| 125 kB 3.3 MB/s
+Collecting tornado!=6.0.0,!=6.0.1,!=6.0.2
+  Downloading tornado-6.1-cp39-cp39-win_amd64.whl (422 kB)
+     |████████████████████████████████| 422 kB 2.2 MB/s
+Collecting ipykernel
+  Downloading ipykernel-5.3.4-py3-none-any.whl (120 kB)
+     |████████████████████████████████| 120 kB 6.4 MB/s
+Collecting terminado>=0.8.3
+  Downloading terminado-0.9.1-py3-none-any.whl (13 kB)
+Collecting jupyter-client>=5.3.4
+  Downloading jupyter_client-6.1.7-py3-none-any.whl (108 kB)
+     |████████████████████████████████| 108 kB 6.4 MB/s
+Collecting ipython-genutils
+  Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Collecting nbconvert
+  Downloading nbconvert-6.0.7-py3-none-any.whl (552 kB)
+     |████████████████████████████████| 552 kB 2.2 MB/s
+Collecting Send2Trash
+  Downloading Send2Trash-1.5.0-py3-none-any.whl (12 kB)
+Collecting pyzmq>=17
+  Downloading pyzmq-20.0.0-cp39-cp39-win_amd64.whl (699 kB)
+     |████████████████████████████████| 699 kB 3.3 MB/s
+Collecting argon2-cffi
+  Downloading argon2_cffi-20.1.0-cp39-cp39-win_amd64.whl (42 kB)
+     |████████████████████████████████| 42 kB 322 kB/s
+Collecting nbformat
+  Downloading nbformat-5.0.8-py3-none-any.whl (172 kB)
+     |████████████████████████████████| 172 kB 1.6 MB/s
+Collecting prometheus-client
+  Downloading prometheus_client-0.9.0-py2.py3-none-any.whl (53 kB)
+     |████████████████████████████████| 53 kB 825 kB/s
+Collecting jupyter-core>=4.6.1
+  Downloading jupyter_core-4.7.0-py3-none-any.whl (82 kB)
+     |████████████████████████████████| 82 kB ...
+Collecting traitlets>=4.2.1
+  Downloading traitlets-5.0.5-py3-none-any.whl (100 kB)
+     |████████████████████████████████| 100 kB 2.5 MB/s
+Collecting requests
+  Downloading requests-2.25.0-py2.py3-none-any.whl (61 kB)
+     |████████████████████████████████| 61 kB 1.3 MB/s
+Collecting json5
+  Downloading json5-0.9.5-py2.py3-none-any.whl (17 kB)
+Collecting jsonschema>=3.0.1
+  Downloading jsonschema-3.2.0-py2.py3-none-any.whl (56 kB)
+     |████████████████████████████████| 56 kB 1.3 MB/s
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1.tar.gz (19 kB)
+Collecting ipython>=5.0.0
+  Downloading ipython-7.19.0-py3-none-any.whl (784 kB)
+     |████████████████████████████████| 784 kB 3.3 MB/s
+Collecting pywinpty>=0.5; os_name == "nt"
+  Downloading pywinpty-0.5.7.tar.gz (49 kB)
+     |████████████████████████████████| 49 kB 80 kB/s
+Collecting python-dateutil>=2.1
+  Downloading python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+     |████████████████████████████████| 227 kB 3.2 MB/s
+Collecting entrypoints>=0.2.2
+  Downloading entrypoints-0.3-py2.py3-none-any.whl (11 kB)
+Collecting pandocfilters>=1.4.1
+  Downloading pandocfilters-1.4.3.tar.gz (16 kB)
+Collecting jupyterlab-pygments
+  Downloading jupyterlab_pygments-0.1.2-py2.py3-none-any.whl (4.6 kB)
+Collecting mistune<2,>=0.8.1
+  Downloading mistune-0.8.4-py2.py3-none-any.whl (16 kB)
+Collecting testpath
+  Downloading testpath-0.4.4-py2.py3-none-any.whl (163 kB)
+     |████████████████████████████████| 163 kB 6.4 MB/s
+Collecting defusedxml
+  Downloading defusedxml-0.6.0-py2.py3-none-any.whl (23 kB)
+Collecting bleach
+  Downloading bleach-3.2.1-py2.py3-none-any.whl (145 kB)
+     |████████████████████████████████| 145 kB 3.3 MB/s
+Collecting nbclient<0.6.0,>=0.5.0
+  Downloading nbclient-0.5.1-py3-none-any.whl (65 kB)
+     |████████████████████████████████| 65 kB 1.3 MB/s
+Collecting pygments>=2.4.1
+  Downloading Pygments-2.7.2-py3-none-any.whl (948 kB)
+     |████████████████████████████████| 948 kB 6.4 MB/s
+Collecting six
+  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting cffi>=1.0.0
+  Downloading cffi-1.14.3-cp39-cp39-win_amd64.whl (179 kB)
+     |████████████████████████████████| 179 kB ...
+Collecting pywin32>=1.0; sys_platform == "win32"
+  Downloading pywin32-300-cp39-cp39-win_amd64.whl (9.2 MB)
+     |████████████████████████████████| 9.2 MB 3.2 MB/s
+Collecting certifi>=2017.4.17
+  Downloading certifi-2020.11.8-py2.py3-none-any.whl (155 kB)
+     |████████████████████████████████| 155 kB 2.2 MB/s
+Collecting chardet<4,>=3.0.2
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+     |████████████████████████████████| 133 kB 6.4 MB/s
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.2-py2.py3-none-any.whl (136 kB)
+     |████████████████████████████████| 136 kB 3.3 MB/s
+Collecting idna<3,>=2.5
+  Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+     |████████████████████████████████| 58 kB ...
+Collecting pyrsistent>=0.14.0
+  Downloading pyrsistent-0.17.3.tar.gz (106 kB)
+     |████████████████████████████████| 106 kB 2.2 MB/s
+Collecting attrs>=17.4.0
+  Downloading attrs-20.3.0-py2.py3-none-any.whl (49 kB)
+     |████████████████████████████████| 49 kB 3.4 MB/s
+Requirement already satisfied: setuptools in c:\users\root\appdata\local\programs\python\python39\lib\site-packages (from jsonschema>=3.0.1->jupyterlab-server<2.0,>=1.1.5->jupyterlab) (49.2.1)
+Collecting backcall
+  Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting colorama; sys_platform == "win32"
+  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting decorator
+  Downloading decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting pickleshare
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0
+  Downloading prompt_toolkit-3.0.8-py3-none-any.whl (355 kB)
+     |████████████████████████████████| 355 kB 3.3 MB/s
+Collecting jedi>=0.10
+  Downloading jedi-0.17.2-py2.py3-none-any.whl (1.4 MB)
+     |████████████████████████████████| 1.4 MB 6.8 MB/s
+Collecting packaging
+  Downloading packaging-20.4-py2.py3-none-any.whl (37 kB)
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting async-generator
+  Downloading async_generator-1.10-py3-none-any.whl (18 kB)
+Collecting nest-asyncio
+  Downloading nest_asyncio-1.4.3-py3-none-any.whl (5.3 kB)
+Collecting pycparser
+  Downloading pycparser-2.20-py2.py3-none-any.whl (112 kB)
+     |████████████████████████████████| 112 kB 2.2 MB/s
+Collecting wcwidth
+  Downloading wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting parso<0.8.0,>=0.7.0
+  Downloading parso-0.7.1-py2.py3-none-any.whl (109 kB)
+     |████████████████████████████████| 109 kB 3.3 MB/s
+Collecting pyparsing>=2.0.2
+  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+     |████████████████████████████████| 67 kB 1.8 MB/s
+Using legacy 'setup.py install' for MarkupSafe, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for pywinpty, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for pandocfilters, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for pyrsistent, since package 'wheel' is not installed.
+Installing collected packages: tornado, ipython-genutils, traitlets, backcall, colorama, decorator, pickleshare, wcwidth, prompt-toolkit, parso, jedi, pygments, ipython, pywin32, jupyter-core, six, python-dateutil, pyzmq, jupyter-client, ipykernel, pywinpty, terminado, MarkupSafe, jinja2, pyrsistent, attrs, jsonschema, nbformat, entrypoints, pandocfilters, jupyterlab-pygments, mistune, testpath, defusedxml, pyparsing, packaging, webencodings, bleach, async-generator, nest-asyncio, nbclient, nbconvert, Send2Trash, pycparser, cffi, argon2-cffi, prometheus-client, notebook, certifi, chardet, urllib3, idna, requests, json5, jupyterlab-server, jupyterlab
+    Running setup.py install for pywinpty ... done
+    Running setup.py install for MarkupSafe ... done
+    Running setup.py install for pyrsistent ... done
+    Running setup.py install for pandocfilters ... done
+Successfully installed MarkupSafe-1.1.1 Send2Trash-1.5.0 argon2-cffi-20.1.0 async-generator-1.10 attrs-20.3.0 backcall-0.2.0 bleach-3.2.1 certifi-2020.11.8 cffi-1.14.3 chardet-3.0.4 colorama-0.4.4 decorator-4.4.2 defusedxml-0.6.0 entrypoints-0.3 idna-2.10 ipykernel-5.3.4 ipython-7.19.0 ipython-genutils-0.2.0 jedi-0.17.2 jinja2-2.11.2 json5-0.9.5 jsonschema-3.2.0 jupyter-client-6.1.7 jupyter-core-4.7.0 jupyterlab-2.2.9 jupyterlab-pygments-0.1.2 jupyterlab-server-1.2.0 mistune-0.8.4 nbclient-0.5.1 nbconvert-6.0.7 nbformat-5.0.8 nest-asyncio-1.4.3 notebook-6.1.5 packaging-20.4 pandocfilters-1.4.3 parso-0.7.1 pickleshare-0.7.5 prometheus-client-0.9.0 prompt-toolkit-3.0.8 pycparser-2.20 pygments-2.7.2 pyparsing-2.4.7 pyrsistent-0.17.3 python-dateutil-2.8.1 pywin32-300 pywinpty-0.5.7 pyzmq-20.0.0 requests-2.25.0 six-1.15.0 terminado-0.9.1 testpath-0.4.4 tornado-6.1 traitlets-5.0.5 urllib3-1.26.2 wcwidth-0.2.5 webencodings-0.5.1
+PS C:\Python\Scripts> source .\activate
+source : Имя "source" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания имени, а также наличи
+е и правильность пути, после чего повторите попытку.
+строка:1 знак:1
++ source .\activate
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (source:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Python\Scripts> jupyter notebook
+[I 16:04:47.091 NotebookApp] Writing notebook server cookie secret to C:\Users\root\AppData\Roaming\jupyter\runtime\notebook_cookie_secret
+[W 16:04:47.450 NotebookApp] Terminals not available (error was No module named 'winpty.cywinpty')
+[I 16:04:47.530 NotebookApp] JupyterLab extension loaded from c:\users\root\appdata\local\programs\python\python39\lib\site-packages\jupyterlab
+[I 16:04:47.530 NotebookApp] JupyterLab application directory is c:\users\root\appdata\local\programs\python\python39\share\jupyter\lab
+[I 16:04:47.639 NotebookApp] Serving notebooks from local directory: C:\Python\Scripts
+[I 16:04:47.653 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 16:04:47.653 NotebookApp] http://localhost:8888/?token=5805e0bd542672edbb9f520731532f5b41b9a865550b49fd
+[I 16:04:47.653 NotebookApp]  or http://127.0.0.1:8888/?token=5805e0bd542672edbb9f520731532f5b41b9a865550b49fd
+[I 16:04:47.653 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:04:47.687 NotebookApp]
+
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/root/AppData/Roaming/jupyter/runtime/nbserver-5032-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=5805e0bd542672edbb9f520731532f5b41b9a865550b49fd
+     or http://127.0.0.1:8888/?token=5805e0bd542672edbb9f520731532f5b41b9a865550b49fd
+[W 16:05:15.325 NotebookApp] 404 GET /undefined (::1) 0.00ms referer=None
+[I 16:05:15.427 NotebookApp] Creating new notebook in
+[I 16:05:15.455 NotebookApp] Writing notebook-signing key to C:\Users\root\AppData\Roaming\jupyter\notebook_secret
+[I 16:05:17.363 NotebookApp] Kernel started: 9193009f-d7de-46ec-95b3-b1a13741e825, name: python3
+[W 16:05:17.379 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20201122160447 (::1) 15.80ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[I 16:07:17.302 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:08:18.711 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:08:52.693 NotebookApp] Writing 22383 bytes to notebook.tex
+[I 16:08:52.693 NotebookApp] Building PDF
+[E 16:08:52.709 NotebookApp] nbconvert failed: xelatex not found on PATH, if you have not installed xelatex you may need to do so. Find further instructions at https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex.
+    Traceback (most recent call last):
+      File "c:\users\root\appdata\local\programs\python\python39\lib\site-packages\notebook\nbconvert\handlers.py", line 130, in get
+        output, resources = exporter.from_notebook_node(
+      File "c:\users\root\appdata\local\programs\python\python39\lib\site-packages\nbconvert\exporters\pdf.py", line 183, in from_notebook_node
+        self.run_latex(tex_file)
+      File "c:\users\root\appdata\local\programs\python\python39\lib\site-packages\nbconvert\exporters\pdf.py", line 153, in run_latex
+        return self.run_command(self.latex_command, filename,
+      File "c:\users\root\appdata\local\programs\python\python39\lib\site-packages\nbconvert\exporters\pdf.py", line 110, in run_command
+        raise OSError("{formatter} not found on PATH, if you have not installed "
+    OSError: xelatex not found on PATH, if you have not installed xelatex you may need to do so. Find further instructions at https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex.
+[W 16:08:52.709 NotebookApp] 500 GET /nbconvert/pdf/Untitled.ipynb?download=true (::1): nbconvert failed: xelatex not found on PATH, if you have not installed xelatex you may need to do so. Find further instructions at https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex.
+[E 16:08:52.709 NotebookApp] {
+      "Accept": "text/html, application/xhtml+xml, image/jxr, */*",
+      "Referer": "http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3",
+      "Accept-Language": "ru-RU",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko",
+      "Accept-Encoding": "gzip, deflate",
+      "Host": "localhost:8888",
+      "Connection": "Keep-Alive",
+      "Cookie": "_xsrf=2|4d4c9471|0404cf06ec45386e73d727e828b2aada|1606050290; username-localhost-8888=\"2|1:0|10:1606050290|23:username-localhost-8888|44:Nzg4MzQ1ZjhkODIwNGQ2NGEyZmY4YmM3MDI4NDM3M2M=|c7ea19a03e4444d46cb635d0b92d078d5363895b367a26cfd105eb528f2e7c73\""
+    }
+[E 16:08:52.709 NotebookApp] 500 GET /nbconvert/pdf/Untitled.ipynb?download=true (::1) 126.02ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[I 16:12:56.310 NotebookApp] Starting buffering for 9193009f-d7de-46ec-95b3-b1a13741e825:79e36c4a7aa34d3a803b0c63b6ea8080
+[I 16:13:03.513 NotebookApp] Shutting down on /api/shutdown request.
+[I 16:13:03.513 NotebookApp] Shutting down 1 kernel
+[I 16:13:03.749 NotebookApp] Kernel shutdown: 9193009f-d7de-46ec-95b3-b1a13741e825
+PS C:\Python\Scripts> source .\deactivate
+source : Имя "source" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания имени, а также наличи
+е и правильность пути, после чего повторите попытку.
+строка:1 знак:1
++ source .\deactivate
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (source:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Python\Scripts> .\deactivate.bat 

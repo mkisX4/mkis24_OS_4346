@@ -1,0 +1,230 @@
+Microsoft Windows [Version 10.0.17763.1457]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2018. Все права защищены.
+
+C:\stud12>ZADANIE I
+"ZADANIE" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\stud12\text>copy con text1.txt
+12345. Это текст первого файла^Z
+Скопировано файлов:         1.
+
+C:\stud12\text>copy con text2.doc
+6789. Это текст второго файла^Z
+Скопировано файлов:         1.
+
+C:\stud12\text>copy con text3.inf
+6789. Это текст третьего файла^Z
+Скопировано файлов:         1.
+
+C:\stud12\text>cd C:\stud12\text\klmno
+
+C:\stud12\text\klmno>copy con file.my
+Над Феодосией угас
+Навеки этот день весенний,
+И всюду удлиняет тени
+Прелестный предвечерний час.^Z
+Скопировано файлов:         1.
+
+C:\stud12\text\klmno>cd C:\stud12
+
+C:\stud12>copy con fio.txt
+Легостаев
+Максим
+Денисович^Z
+Скопировано файлов:         1.
+
+C:\stud12>copy con inf.txt
+МКИС24 (24 чел. по списку, 23 на деле)
+МКиМТ
+16.10.2020 (опоздать на 24 дня, стыд)
+^Z
+Скопировано файлов:         1.
+
+C:\stud12>вшк
+"вшк" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\stud12>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 1041-47F9
+
+ Содержимое папки C:\stud12
+
+16.10.2020  21:33    <DIR>          .
+16.10.2020  21:33    <DIR>          ..
+07.10.2020  18:46    <DIR>          abc
+07.10.2020  18:35               100 file.my
+16.10.2020  21:33                28 fio.txt
+07.10.2020  17:18    <DIR>          first
+16.10.2020  21:34                96 inf.txt
+07.10.2020  17:40    <DIR>          inform
+07.10.2020  18:46                59 myfile.inf
+07.10.2020  17:22    <DIR>          second
+16.10.2020  21:25    <DIR>          text
+               4 файлов            283 байт
+               7 папок     170 012 672 байт свободно
+
+C:\stud12>ZADANIE II
+"ZADANIE" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\stud12>copy C:\STUD12\TEXT\text1.txt C:\STUD12\ABC\DEF
+Заменить C:\STUD12\ABC\DEF\text1.txt [Yes (да)/No (нет)/All (все)]: y
+Скопировано файлов:         1.
+
+C:\stud12>copy fio.txt+inf.txt myfile.inf
+fio.txt
+Заменить myfile.inf [Yes (да)/No (нет)/All (все)]: y
+inf.txt
+Скопировано файлов:         1.
+
+C:\stud12>cd C:\stud12\text\klmno
+
+C:\stud12\text\klmno>copy file.my C:\STUD12\ABC\DEF\copyfile.doc
+Скопировано файлов:         1.
+
+C:\stud12\text\klmno>cd C:\stud12
+
+C:\stud12>ZADANIE III
+"ZADANIE" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+
+C:\stud12>type myfile.inf
+Легостаев
+Максим
+ДенисовичМКИС24 (24 чел. по списку, 23 на деле)
+МКиМТ
+16.10.2020 (опоздать на 24 дня, стыд)
+
+C:\stud12>ZADANIE IV
+"ZADANIE" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\stud12>ren myfile.inf my.txt
+
+C:\stud12>type my.txt
+Легостаев
+Максим
+ДенисовичМКИС24 (24 чел. по списку, 23 на деле)
+МКиМТ
+16.10.2020 (опоздать на 24 дня, стыд)
+
+C:\stud12>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 1041-47F9
+
+ Содержимое папки C:\stud12
+
+16.10.2020  21:43    <DIR>          .
+16.10.2020  21:43    <DIR>          ..
+07.10.2020  18:46    <DIR>          abc
+07.10.2020  18:35               100 file.my
+16.10.2020  21:33                28 fio.txt
+07.10.2020  17:18    <DIR>          first
+16.10.2020  21:34                96 inf.txt
+07.10.2020  17:40    <DIR>          inform
+16.10.2020  21:39               125 my.txt
+07.10.2020  17:22    <DIR>          second
+16.10.2020  21:25    <DIR>          text
+               4 файлов            349 байт
+               7 папок     170 057 728 байт свободно
+
+C:\stud12>ZADANIE V
+"ZADANIE" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\stud12>del C:\STUD12\ABC\DEF\copyfile.doc
+
+C:\stud12>ZADANIE VI
+"ZADANIE" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\stud12>copy C:\STUD12\TEXT\*.* C:\STUD12\CDE\FGH
+C:\STUD12\TEXT\text1.txt
+Системе не удается найти указанный путь.
+Скопировано файлов:         0.
+
+C:\stud12>mkdir
+Ошибка в синтаксисе команды.
+
+C:\stud12>mkdir cdr
+
+C:\stud12>mkdir cde
+
+C:\stud12>cd C:\stud12\cde
+
+C:\stud12\cde>mkdir fgh
+
+C:\stud12\cde>cd C:\stud12
+
+C:\stud12>copy C:\STUD12\TEXT\*.* C:\STUD12\CDE\FGH
+C:\STUD12\TEXT\text1.txt
+C:\STUD12\TEXT\text2.doc
+C:\STUD12\TEXT\text3.inf
+Скопировано файлов:         3.
+
+C:\stud12>cd C:\stud12\cde\fgh
+
+C:\stud12\cde\fgh>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 1041-47F9
+
+ Содержимое папки C:\stud12\cde\fgh
+
+16.10.2020  21:52    <DIR>          .
+16.10.2020  21:52    <DIR>          ..
+16.10.2020  21:24                13 text1.txt
+16.10.2020  21:25                29 text2.doc
+16.10.2020  21:25                32 text3.inf
+               3 файлов             74 байт
+               2 папок     171 212 800 байт свободно
+
+C:\stud12\cde\fgh>ren *.* *.old
+
+C:\stud12\cde\fgh>copy text1.old+text2.old+text3.old all.txt
+text1.old
+text2.old
+text3.old
+Скопировано файлов:         1.
+
+C:\stud12\cde\fgh>del *.old
+
+C:\stud12\cde\fgh>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 1041-47F9
+
+ Содержимое папки C:\stud12\cde\fgh
+
+16.10.2020  21:53    <DIR>          .
+16.10.2020  21:53    <DIR>          ..
+16.10.2020  21:53                75 all.txt
+               1 файлов             75 байт
+               2 папок     171 212 800 байт свободно
+
+C:\stud12>ZADANIE VII
+"ZADANIE" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+               
+C:\stud12\cde\fgh>cd C:\stud12\text
+
+C:\stud12\text>del *.*
+C:\stud12\text\*.*, вы уверены [Y(да)/N(нет)]? y
+
+C:\stud12>cd C:\stud12\text\klmno
+
+C:\stud12\text\klmno>del *.*
+C:\stud12\text\klmno\*.*, вы уверены [Y(да)/N(нет)]? y
+
+C:\stud12\text\klmno>cd C:\stud12\text
+
+C:\stud12\text>rd klmno
+
+C:\stud12\text>cd C:\stud12
+
+C:\stud12>rd text
+
+C:\stud12>ZADANIYA ZAKONCHILIS'
+"ZADANIYA" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.

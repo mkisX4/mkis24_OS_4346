@@ -1,0 +1,293 @@
+
+
+2020-11-29 15:00:14 (4,86 MB/s) - ‘yandex.ru/collections/index.html.tmp’ saved [85477]
+
+Removing yandex.ru/collections/index.html.tmp since it should be rejected.
+
+--2020-11-29 15:00:14--  https://yandex.ru/news/?lang=ru&msid=1606651213.27212.85639.471807&mlid=1606650625
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 Ok
+Length: unspecified [text/html]
+Saving to: ‘yandex.ru/news/index.html?lang=ru&msid=1606651213.27212.85639.471807&mlid=1606650625.tmp’
+
+
+
+2020-11-29 15:00:14 (2,39 MB/s) - ‘yandex.ru/news/index.html?lang=ru&msid=1606651213.27212.85639.471807&mlid=1606650625.tmp’ saved [370477]
+
+Removing yandex.ru/news/index.html?lang=ru&msid=1606651213.27212.85639.471807&mlid=1606650625.tmp since it should be rejected.
+
+--2020-11-29 15:00:14--  https://yandex.ru/video/?utm_source=main_stripe_big
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 Ok
+Length: unspecified [text/html]
+Saving to: ‘yandex.ru/video/index.html?utm_source=main_stripe_big.tmp’
+
+               yandex.ru/video/     [ <=>                                                 ] 760,94K  3,34MB/s               yandex.ru/video/index.html?utm_     [  <=>                                                ] 841,27K  3,68MB/s    in 0,2s    
+
+2020-11-29 15:00:16 (3,68 MB/s) - ‘yandex.ru/video/index.html?utm_source=main_stripe_big.tmp’ saved [861456]
+
+Removing yandex.ru/video/index.html?utm_source=main_stripe_big.tmp since it should be rejected.
+
+--2020-11-29 15:00:16--  https://yandex.ru/images/?utm_source=main_stripe_big
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘yandex.ru/images/index.html?utm_source=main_stripe_big.tmp’
+
+     0K .......... .......... .......... .......... .......... 1,11M
+    50K .......... .......... .......... .......... .......... 2,06M
+   100K .......... .......... .......... .......... .......... 8,35M
+   150K .......... .......... .......... .......... .......... 2,16M
+   200K .........                                               103M=0,1s
+
+2020-11-29 15:00:16 (2,13 MB/s) - ‘yandex.ru/images/index.html?utm_source=main_stripe_big.tmp’ saved [214933]
+
+Removing yandex.ru/images/index.html?utm_source=main_stripe_big.tmp since it should be rejected.
+
+--2020-11-29 15:00:16--  https://yandex.ru/news/?utm_source=main_stripe_big
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 Ok
+Length: unspecified [text/html]
+Saving to: ‘yandex.ru/news/index.html?utm_source=main_stripe_big.tmp’
+
+     0K .......... .......... .......... .......... .......... 5,18M
+    50K .......... .......... .......... .......... .......... 8,66M
+   100K .......... .......... .......... .......... .......... 14,6M
+   150K .......... .......... .......... .......... ..........  930K
+   200K .......... .......... .......... .......... .......... 33,0M
+   250K .......... .......... .......... .......... .......... 16,3M
+   300K .......... .......... .......... .......... .......... 1,29M
+   350K .......... ..                                          5,65M=0,1s
+
+2020-11-29 15:00:16 (3,04 MB/s) - ‘yandex.ru/news/index.html?utm_source=main_stripe_big.tmp’ saved [371563]
+
+Removing yandex.ru/news/index.html?utm_source=main_stripe_big.tmp since it should be rejected.
+
+--2020-11-29 15:00:16--  https://yandex.ru/maps/?utm_source=main_stripe_big
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘yandex.ru/maps/index.html?utm_source=main_stripe_big.tmp’
+
+     0K .......... .......... .......... .......... .......... 8,74M
+    50K .......... .......... .......... .......... ..........  627K
+   100K .......... .......... .......... .......... .......... 1,08M
+   150K ........                                                125M=0,1s
+
+2020-11-29 15:00:16 (1,18 MB/s) - ‘yandex.ru/maps/index.html?utm_source=main_stripe_big.tmp’ saved [161935]
+
+Removing yandex.ru/maps/index.html?utm_source=main_stripe_big.tmp since it should be rejected.
+
+--2020-11-29 15:00:16--  https://yandex.ru/
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 Ok
+Length: 177753 (174K) [text/html]
+Saving to: ‘yandex.ru/index.html.tmp’
+
+     0K .......... .......... .......... .......... .......... 28% 7,55M 0s
+    50K .......... .......... .......... .......... .......... 57% 1,08M 0s
+   100K .......... .......... .......... .......... .......... 86% 1,27M 0s
+   150K .......... .......... ...                             100% 4,66M=0,1s
+
+2020-11-29 15:00:17 (1,78 MB/s) - ‘yandex.ru/index.html.tmp’ saved [177753/177753]
+
+Removing yandex.ru/index.html.tmp since it should be rejected.
+
+--2020-11-29 15:00:17--  https://yandex.ru/pogoda/?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=title
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 302 Found
+Location: /pogoda/rostov-na-donu?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=title [following]
+--2020-11-29 15:00:17--  https://yandex.ru/pogoda/rostov-na-donu?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=title
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 119582 (117K) [text/html]
+Saving to: ‘yandex.ru/pogoda/index.html?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=title.tmp’
+
+     0K .......... .......... .......... .......... .......... 42% 1,49M 0s
+    50K .......... .......... .......... .......... .......... 85% 2,69M 0s
+   100K .......... ......                                     100% 2,59M=0,06s
+
+2020-11-29 15:00:17 (2,00 MB/s) - ‘yandex.ru/pogoda/index.html?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=title.tmp’ saved [119582/119582]
+
+Removing yandex.ru/pogoda/index.html?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=title.tmp since it should be rejected.
+
+--2020-11-29 15:00:17--  https://yandex.ru/pogoda/?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=main_number
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 302 Found
+Location: /pogoda/rostov-na-donu?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=main_number [following]
+--2020-11-29 15:00:17--  https://yandex.ru/pogoda/rostov-na-donu?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=main_number
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 119652 (117K) [text/html]
+Saving to: ‘yandex.ru/pogoda/index.html?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=main_number.tmp’
+
+     0K .......... .......... .......... .......... .......... 42% 2,33M 0s
+    50K .......... .......... .......... .......... .......... 85% 2,50M 0s
+   100K .......... ......                                     100% 3,18M=0,05s
+
+2020-11-29 15:00:17 (2,50 MB/s) - ‘yandex.ru/pogoda/index.html?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=main_number.tmp’ saved [119652/119652]
+
+Removing yandex.ru/pogoda/index.html?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=main_number.tmp since it should be rejected.
+
+--2020-11-29 15:00:17--  https://yandex.ru/pogoda/?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=current_day_part
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 302 Found
+Location: /pogoda/rostov-na-donu?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=current_day_part [following]
+--2020-11-29 15:00:18--  https://yandex.ru/pogoda/rostov-na-donu?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=current_day_part
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 119660 (117K) [text/html]
+Saving to: ‘yandex.ru/pogoda/index.html?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=current_day_part.tmp’
+
+     0K .......... .......... .......... .......... .......... 42% 2,51M 0s
+    50K .......... .......... .......... .......... .......... 85% 2,36M 0s
+   100K .......... ......                                     100% 3,88M=0,04s
+
+2020-11-29 15:00:18 (2,57 MB/s) - ‘yandex.ru/pogoda/index.html?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=current_day_part.tmp’ saved [119660/119660]
+
+Removing yandex.ru/pogoda/index.html?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=current_day_part.tmp since it should be rejected.
+
+--2020-11-29 15:00:18--  https://yandex.ru/pogoda/?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=next_day_part
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 302 Found
+Location: /pogoda/rostov-na-donu?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=next_day_part [following]
+--2020-11-29 15:00:18--  https://yandex.ru/pogoda/rostov-na-donu?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=next_day_part
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 119645 (117K) [text/html]
+Saving to: ‘yandex.ru/pogoda/index.html?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=next_day_part.tmp’
+
+     0K .......... .......... .......... .......... .......... 42% 1,31M 0s
+    50K .......... .......... .......... .......... .......... 85% 3,30M 0s
+   100K .......... ......                                     100% 2,28M=0,06s
+
+2020-11-29 15:00:18 (1,92 MB/s) - ‘yandex.ru/pogoda/index.html?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=next_day_part.tmp’ saved [119645/119645]
+
+Removing yandex.ru/pogoda/index.html?utm_campaign=informer&utm_content=main_informer&utm_medium=web&utm_source=home&utm_term=next_day_part.tmp since it should be rejected.
+
+--2020-11-29 15:00:18--  https://yandex.ru/games/?utm_source=yamain&utm_medium=service-list&utm_campaign=general_ru_desktop_no_all&utm_content=dlya_uytnih_vecherov
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 563026 (550K) [text/html]
+Saving to: ‘yandex.ru/games/index.html?utm_source=yamain&utm_medium=service-list&utm_campaign=general_ru_desktop_no_all&utm_content=dlya_uytnih_vecherov.tmp’
+
+     0K .......... .......... .......... .......... ..........  9% 2,61M 0s
+    50K .......... .......... .......... .......... .......... 18% 2,39M 0s
+   100K .......... .......... .......... .......... .......... 27% 3,18M 0s
+   150K .......... .......... .......... .......... .......... 36% 3,18M 0s
+   200K .......... .......... .......... .......... .......... 45% 2,72M 0s
+   250K .......... .......... .......... .......... .......... 54% 2,76M 0s
+   300K .......... .......... .......... .......... .......... 63% 3,08M 0s
+   350K .......... .......... .......... .......... .......... 72% 2,97M 0s
+   400K .......... .......... .......... .......... .......... 81% 3,19M 0s
+   450K .......... .......... .......... .......... .......... 90% 3,56M 0s
+   500K .......... .......... .......... .......... ......... 100% 3,15M=0,2s
+
+2020-11-29 15:00:19 (2,95 MB/s) - ‘yandex.ru/games/index.html?utm_source=yamain&utm_medium=service-list&utm_campaign=general_ru_desktop_no_all&utm_content=dlya_uytnih_vecherov.tmp’ saved [563026/563026]
+
+Removing yandex.ru/games/index.html?utm_source=yamain&utm_medium=service-list&utm_campaign=general_ru_desktop_no_all&utm_content=dlya_uytnih_vecherov.tmp since it should be rejected.
+
+--2020-11-29 15:00:19--  https://yandex.ru/maps/?utm_source=geoblock_maps_bataisk
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘yandex.ru/maps/index.html?utm_source=geoblock_maps_bataisk.tmp’
+
+     0K .......... .......... .......... .......... .......... 3,14M
+    50K .......... .......... .......... .......... .......... 3,00M
+   100K .......... .......... .......... .......... ..........  242K
+   150K ........                                               2,97M=0,2s
+
+2020-11-29 15:00:19 (656 KB/s) - ‘yandex.ru/maps/index.html?utm_source=geoblock_maps_bataisk.tmp’ saved [162266]
+
+Removing yandex.ru/maps/index.html?utm_source=geoblock_maps_bataisk.tmp since it should be rejected.
+
+--2020-11-29 15:00:19--  https://yandex.ru/adv/?from=main_bottom
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 107982 (105K) [text/html]
+Saving to: ‘yandex.ru/adv/index.html?from=main_bottom.tmp’
+
+     0K .......... .......... .......... .......... .......... 47% 1,09M 0s
+    50K .......... .......... .......... .......... .......... 94% 1,98M 0s
+   100K .....                                                 100%  188K=0,1s
+
+2020-11-29 15:00:19 (1,05 MB/s) - ‘yandex.ru/adv/index.html?from=main_bottom.tmp’ saved [107982/107982]
+
+Removing yandex.ru/adv/index.html?from=main_bottom.tmp since it should be rejected.
+
+--2020-11-29 15:00:19--  https://yandex.ru/blog/company/
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 302 Found
+Location: http://yandex.ru/blog/company [following]
+URL transformed to HTTPS due to an HSTS policy
+--2020-11-29 15:00:19--  https://yandex.ru/blog/company
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 63201 (62K) [text/html]
+Saving to: ‘yandex.ru/blog/company/index.html.tmp’
+
+     0K .......... .......... .......... .......... .......... 81% 2,93M 0s
+    50K .......... .                                          100%  169M=0,02s
+
+2020-11-29 15:00:20 (3,60 MB/s) - ‘yandex.ru/blog/company/index.html.tmp’ saved [63201/63201]
+
+Removing yandex.ru/blog/company/index.html.tmp since it should be rejected.
+
+--2020-11-29 15:00:20--  https://yandex.ru/company/
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 18714 (18K) [text/html]
+Saving to: ‘yandex.ru/company/index.html.tmp’
+
+     0K .......... ........                                   100% 5,11M=0,003s
+
+2020-11-29 15:00:20 (5,11 MB/s) - ‘yandex.ru/company/index.html.tmp’ saved [18714/18714]
+
+Removing yandex.ru/company/index.html.tmp since it should be rejected.
+
+--2020-11-29 15:00:20--  https://yandex.ru/legal/rules/
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 860580 (840K) [text/html]
+Saving to: ‘yandex.ru/legal/rules/index.html.tmp’
+
+     0K .......... .......... .......... .......... ..........  5% 2,63M 0s
+    50K .......... .......... .......... .......... .......... 11% 4,61M 0s
+   100K .......... .......... .......... .......... .......... 17% 2,94M 0s
+   150K .......... .......... .......... .......... .......... 23% 4,38M 0s
+   200K .......... .......... .......... .......... .......... 29% 2,50M 0s
+   250K .......... .......... .......... .......... .......... 35% 3,22M 0s
+   300K .......... .......... .......... .......... .......... 41% 3,07M 0s
+   350K .......... .......... .......... .......... .......... 47% 2,10M 0s
+   400K .......... .......... .......... .......... .......... 53% 6,52M 0s
+   450K .......... .......... .......... .......... .......... 59% 4,19M 0s
+   500K .......... .......... .......... .......... .......... 65% 3,82M 0s
+   550K .......... .......... .......... .......... .......... 71% 3,28M 0s
+   600K .......... .......... .......... .......... .......... 77% 3,17M 0s
+   650K .......... .......... .......... .......... .......... 83% 3,80M 0s
+   700K .......... .......... .......... .......... .......... 89% 3,22M 0s
+   750K .......... .......... .......... .......... .......... 95% 2,88M 0s
+   800K .......... .......... .......... ..........           100% 2,35M=0,3s
+
+2020-11-29 15:00:20 (3,22 MB/s) - ‘yandex.ru/legal/rules/index.html.tmp’ saved [860580/860580]
+
+Removing yandex.ru/legal/rules/index.html.tmp since it should be rejected.
+
+--2020-11-29 15:00:20--  https://yandex.ru/support/
+Reusing existing connection to yandex.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 102519 (100K) [text/html]
+Saving to: ‘yandex.ru/support/index.html.tmp’
+
+     0K .......... .......... .......... .......... .......... 49% 4,09M 0s
+    50K .......... .......... .......... .......... .......... 99% 2,43M 0s
+   100K                                                       100%  222G=0,03s
+
+2020-11-29 15:00:20 (3,05 MB/s) - ‘yandex.ru/support/index.html.tmp’ saved [102519/102519]
+
+Removing yandex.ru/support/index.html.tmp since it should be rejected.
+
+FINISHED --2020-11-29 15:00:20--
+Total wall clock time: 7,7s
+Downloaded: 21 files, 5,4M in 2,2s (2,51 MB/s)
