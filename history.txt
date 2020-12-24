@@ -1,0 +1,238 @@
+[user@user-pc git]$ git init mkis24_OS_4346
+Initialized empty Git repository in /mnt/ssd1/LABRAB/git/mkis24_OS_4346/.git/
+[user@user-pc git]$ cd ./mkis24_OS_4346/
+[user@user-pc mkis24_OS_4346]$ ls
+[user@user-pc mkis24_OS_4346]$ ls -a
+.  ..  .git
+[user@user-pc mkis24_OS_4346]$ man git
+[user@user-pc mkis24_OS_4346]$ man git-config
+[user@user-pc mkis24_OS_4346]$ man git-config --local user.name <"MKIS24">
+bash: syntax error near unexpected token `newline'
+[user@user-pc mkis24_OS_4346]$ man git-config --local user.name <MKIS24>  
+bash: syntax error near unexpected token `newline'
+[user@user-pc mkis24_OS_4346]$ git config --local user.name <MKIS24>     
+bash: syntax error near unexpected token `newline'
+[user@user-pc mkis24_OS_4346]$ git config --local user.name <"MKIS24">
+bash: syntax error near unexpected token `newline'
+[user@user-pc mkis24_OS_4346]$ git config user.name <"MKIS24">        
+bash: syntax error near unexpected token `newline'
+[user@user-pc mkis24_OS_4346]$ git-config user.name <"MKIS24"> 
+bash: syntax error near unexpected token `newline'
+[user@user-pc mkis24_OS_4346]$ git config --global user.name "John Doe"
+[user@user-pc mkis24_OS_4346]$ git config user.name <"MKIS24">          
+bash: syntax error near unexpected token `newline'
+[user@user-pc mkis24_OS_4346]$ git config user.name "MKIS24" 
+[user@user-pc mkis24_OS_4346]$ git config user.email "alexsadowski78@gmail.com"
+[user@user-pc mkis24_OS_4346]$ git commit -m 'начало'
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+[user@user-pc mkis24_OS_4346]$ ls
+[user@user-pc mkis24_OS_4346]$ mkdir L1
+[user@user-pc mkis24_OS_4346]$ git commit -m 'начало'
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+[user@user-pc mkis24_OS_4346]$ git add ./L1
+[user@user-pc mkis24_OS_4346]$ ls
+L1
+[user@user-pc mkis24_OS_4346]$ git commit -m 'начало'
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+[user@user-pc mkis24_OS_4346]$ git add LICENSE
+fatal: pathspec 'LICENSE' did not match any files
+[user@user-pc mkis24_OS_4346]$ git add LICENSE
+[user@user-pc mkis24_OS_4346]$ git commit -m 'начало'
+[master (root-commit) 601ccfd] начало
+ 1 file changed, 1 insertion(+)
+ create mode 100644 LICENSE
+[user@user-pc mkis24_OS_4346]$ cd ../
+[user@user-pc git]$ cd ../
+[user@user-pc LABRAB]$ cp ../LABRAB ./git/mkis24_OS_4346
+cp: -r not specified; omitting directory '../LABRAB'
+[user@user-pc LABRAB]$ cp /mnt/ssd1/LABRAB ./git/mkis24_OS_4346   
+cp: -r not specified; omitting directory '/mnt/ssd1/LABRAB'
+[user@user-pc LABRAB]$ cp /mnt/ssd1/LABRAB/git/mkis24_OS_4346
+cp: missing destination file operand after '/mnt/ssd1/LABRAB/git/mkis24_OS_4346'
+Try 'cp --help' for more information.
+[user@user-pc LABRAB]$ cd /mnt/ssd1/LABRAB/git/mkis24_OS_4346
+[user@user-pc mkis24_OS_4346]$ ls
+L1  LABRAB  LICENSE
+[user@user-pc mkis24_OS_4346]$ git commit -m 'добавляем все лабы за семестр'
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LABRAB/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[user@user-pc mkis24_OS_4346]$ git add LABRAB
+warning: adding embedded git repository: LABRAB/git/mkis24_OS_4346
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint:   git submodule add <url> LABRAB/git/mkis24_OS_4346
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint:   git rm --cached LABRAB/git/mkis24_OS_4346
+hint: 
+hint: See "git help submodule" for more information.
+[user@user-pc mkis24_OS_4346]$ git^C
+[user@user-pc mkis24_OS_4346]$ git rm --cached LABRAB/git/mkis24_OS_4346
+error: the following file has staged content different from both the
+file and the HEAD:
+    LABRAB/git/mkis24_OS_4346
+(use -f to force removal)
+[user@user-pc mkis24_OS_4346]$ git rm -f --cached LABRAB/git/mkis24_OS_4346
+rm 'LABRAB/git/mkis24_OS_4346'
+[user@user-pc mkis24_OS_4346]$ rm ./LABRAB/git
+rm: cannot remove './LABRAB/git': Is a directory
+[user@user-pc mkis24_OS_4346]$ rmdir ./LABRAB/git
+rmdir: failed to remove './LABRAB/git': Directory not empty
+[user@user-pc mkis24_OS_4346]$ man rmdir
+[user@user-pc mkis24_OS_4346]$ rmdir -p ./LABRAB/git
+rmdir: failed to remove './LABRAB/git': Directory not empty
+[user@user-pc mkis24_OS_4346]$ man rmdir            
+[user@user-pc mkis24_OS_4346]$ rmdir --ignore-fail-on-non-empty ./LABRAB/git
+[user@user-pc mkis24_OS_4346]$ rmdir --ignore-fail-on-non-empty ./LABRAB/git
+[user@user-pc mkis24_OS_4346]$ rm -rf ./LABRAB/git                          
+[user@user-pc mkis24_OS_4346]$ git add LABRAB
+[user@user-pc mkis24_OS_4346]$ git commit -m 'добавляем все лабы за семестр'
+[master 85ae129] добавляем все лабы за семестр
+ 23 files changed, 11613 insertions(+)
+ create mode 100644 LABRAB/1.py
+ create mode 100644 LABRAB/1.tar.gz
+ create mode 100644 LABRAB/A1/B1/C1/1.cpp
+ create mode 100644 LABRAB/A1/B1/C1/2.cpp
+ create mode 100644 LABRAB/A1/B1/C2/1.doc
+ create mode 100644 LABRAB/Alexey.jpg
+ create mode 100644 LABRAB/L10.txt
+ create mode 100644 LABRAB/ind.txt
+ create mode 100644 LABRAB/ind.zip
+ create mode 100644 LABRAB/my.dat
+ create mode 100644 LABRAB/task10/Shakespeare/Sonnets/1-10.txt
+ create mode 100644 LABRAB/task10/Shakespeare/Sonnets/11-20.txt
+ create mode 100644 LABRAB/task10/Shakespeare/THE COMEDY OF ERRORS.txt
+ create mode 100644 LABRAB/task10/Shakespeare/THE TRAGEDY OF ANTONY AND CLEOPATRA.txt
+ create mode 100644 LABRAB/task10/Shakespeare/THE TRAGEDY OF HAMLET, PRINCE OF DENMARK.txt
+ create mode 100644 LABRAB/task10/lab10.txt
+ create mode 100644 LABRAB/task10/shakespeare.tar.gz
+ create mode 100644 LABRAB/task10/test.txt
+ create mode 100644 LABRAB/task9/quiz_archive.tar.gz
+ create mode 100644 LABRAB/task9/quiz_archive/course_info.txt
+ create mode 100644 LABRAB/task9/quiz_archive/images/stepic_team.jpg
+ create mode 100644 LABRAB/task9/quiz_archive/linux_history.txt
+ create mode 100644 LABRAB/test2.txt
+[user@user-pc mkis24_OS_4346]$ cd /mnt/ssd1
+[user@user-pc ssd1]$ cd ./googleclass_out
+[user@user-pc googleclass_out]$ ls
+ALGO  OS
+[user@user-pc googleclass_out]$ ls -a
+.  ..  ALGO  OS
+[user@user-pc googleclass_out]$ cp /mnt/ssd1/googleclass_out /mnt/ssd1/LABRAB/git/mkis24_OS_4346/
+cp: -r not specified; omitting directory '/mnt/ssd1/googleclass_out'
+[user@user-pc googleclass_out]$ cp -r /mnt/ssd1/googleclass_out /mnt/ssd1/LABRAB/git/mkis24_OS_4346/
+[user@user-pc googleclass_out]$ cd /mnt/ssd1/LABRAB/git/mkis24_OS_4346
+[user@user-pc mkis24_OS_4346]$ ls
+googleclass_out  L1  LABRAB  LICENSE
+[user@user-pc mkis24_OS_4346]$ git add googleclass_out
+[user@user-pc mkis24_OS_4346]$ git commit -m 'добавляем все лабы за семестр, залитые на Гугл Класс'
+[master 0365c43] добавляем все лабы за семестр, залитые на Гугл Класс
+ 58 files changed, 26310 insertions(+)
+ create mode 100644 googleclass_out/ALGO/L1/L1.png
+ create mode 100644 googleclass_out/ALGO/L1/L1.py
+ create mode 100644 googleclass_out/ALGO/L2/L2.py
+ create mode 100644 googleclass_out/ALGO/L3/L3_29.py
+ create mode 100644 googleclass_out/ALGO/L5/L5.docx
+ create mode 100644 googleclass_out/ALGO/L6/code.py
+ create mode 100644 googleclass_out/ALGO/L6/submission_Legostaev.txt
+ create mode 100644 "googleclass_out/ALGO/L6/\320\262\320\265\320\272\321\202\320\276\321\200\320\272\320\270.ipynb"
+ create mode 100644 "googleclass_out/ALGO/L6/\320\262\320\270\320\266\321\203\320\260\320\273.ipynb"
+ create mode 100644 "googleclass_out/ALGO/L6/\320\273\320\270\320\275\320\260\320\273\320\263.ipynb"
+ create mode 100644 "googleclass_out/ALGO/L6/\320\274\320\260\321\202\320\277\320\273\320\276\321\202\320\273\320\270\320\261.ipynb"
+ create mode 100644 "googleclass_out/ALGO/L6/\320\276\320\277\321\202\320\270\320\274\320\270\320\267\320\260\321\206\320\270\320\270.ipynb"
+ create mode 100644 "googleclass_out/ALGO/L6/\320\277\320\260\320\275\320\264\320\260\321\201.ipynb"
+ create mode 100644 googleclass_out/ALGO/L7/L7.py
+ create mode 100644 googleclass_out/OS/L1/0.txt
+ create mode 100644 googleclass_out/OS/L1/L1.png
+ create mode 100644 googleclass_out/OS/L10/C1_1.png
+ create mode 100644 googleclass_out/OS/L10/C2_1.png
+ create mode 100644 googleclass_out/OS/L10/L10.png
+ create mode 100644 googleclass_out/OS/L10/L10.txt
+ create mode 100644 googleclass_out/OS/L10/L10_output.txt
+ create mode 100644 googleclass_out/OS/L11/11.png
+ create mode 100644 googleclass_out/OS/L11/12.png
+ create mode 100644 googleclass_out/OS/L11/L11.txt
+ create mode 100644 googleclass_out/OS/L11/Screenshot_20201220_112316.png
+ create mode 100644 googleclass_out/OS/L11/Screenshot_20201220_115154.png
+ create mode 100644 googleclass_out/OS/L11/Screenshot_20201220_115949.png
+ create mode 100644 googleclass_out/OS/L11/Screenshot_20201220_121101.png
+ create mode 100644 googleclass_out/OS/L12/L13.png
+ create mode 100644 googleclass_out/OS/L12/L14.png
+ create mode 100644 googleclass_out/OS/L12/L15.png
+ create mode 100644 googleclass_out/OS/L12/L16.png
+ create mode 100644 googleclass_out/OS/L2/L2.png
+ create mode 100644 googleclass_out/OS/L2/L2.txt
+ create mode 100644 googleclass_out/OS/L2/ind.txt
+ create mode 100644 googleclass_out/OS/L3/L3.BAT.txt
+ create mode 100644 googleclass_out/OS/L3/L3.png
+ create mode 100644 googleclass_out/OS/L3/L3_system.png
+ create mode 100644 googleclass_out/OS/L4/L4.png
+ create mode 100644 googleclass_out/OS/L4/L4_virt.png
+ create mode 100644 googleclass_out/OS/L5/L5.png
+ create mode 100644 googleclass_out/OS/L5/L5.txt
+ create mode 100644 googleclass_out/OS/L5/L5_graph.png
+ create mode 100644 googleclass_out/OS/L6/L6.png
+ create mode 100644 googleclass_out/OS/L6/L6_res.png
+ create mode 100644 googleclass_out/OS/L7/L7.html
+ create mode 100644 googleclass_out/OS/L7/L7.png
+ create mode 100644 googleclass_out/OS/L7/L7.txt
+ create mode 100644 googleclass_out/OS/L8/L8.png
+ create mode 100644 googleclass_out/OS/L8/ind.txt
+ create mode 100644 googleclass_out/OS/L9/C1.png
+ create mode 100644 googleclass_out/OS/L9/C3.png
+ create mode 100644 googleclass_out/OS/L9/C4.png
+ create mode 100644 googleclass_out/OS/L9/C5.png
+ create mode 100644 googleclass_out/OS/L9/C6.png
+ create mode 100644 googleclass_out/OS/L9/L9.png
+ create mode 100644 googleclass_out/OS/L9/L9.txt
+ create mode 100644 googleclass_out/OS/L9/wget-log.txt
+[user@user-pc mkis24_OS_4346]$ git push https://github.com/mkisX4/mkis24_OS_4346 master
+Username for 'https://github.com': mkisX4
+Password for 'https://mkisX4@github.com': 
+Enumerating objects: 119, done.
+Counting objects: 100% (119/119), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (106/106), done.
+Writing objects: 100% (119/119), 7.22 MiB | 4.54 MiB/s, done.
+Total 119 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/mkisX4/mkis24_OS_4346
+ * [new branch]      master -> master
+[user@user-pc mkis24_OS_4346]$ git add README.MD
+[user@user-pc mkis24_OS_4346]$ git commit -m 'добавляем README'
+[master 03ed7db] добавляем README
+ 1 file changed, 4 insertions(+)
+ create mode 100644 README.MD
+[user@user-pc mkis24_OS_4346]$ git push https://github.com/mkisX4/mkis24_OS_4346 master
+Username for 'https://github.com': mkisX4
+Password for 'https://mkisX4@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 555 bytes | 555.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/mkisX4/mkis24_OS_4346
+   0365c43..03ed7db  master -> master
+[user@user-pc mkis24_OS_4346]$ 
